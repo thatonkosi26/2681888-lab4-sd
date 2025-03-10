@@ -53,10 +53,10 @@ document.getElementById('submit').addEventListener('click', function() {
                             const borderFlag = borderCountry.flags.svg;
 
                             borderingCountriesSection.innerHTML += `
-                                <div>
+                                <section>
                                     <p><strong>${borderName}</strong></p>
                                     <img src="${borderFlag}" alt="Flag of ${borderName}" width="50">
-                                </div>
+                                </section>
                             `;
                         })
                         .catch(err => {

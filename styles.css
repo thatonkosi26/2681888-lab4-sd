@@ -2,3 +2,45 @@
   margin: 0;
   padding: 0;
 }
+
+body{
+  background-image: url('https://wallpaperaccess.com/full/199469.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  color: white;
+  size: 200px;
+}
+
+p{
+  color: white;
+}
+
+input{
+  margin-top: 50px;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+::placeholder {
+  padding: 4px;
+  color: black;
+  opacity: 0.5;
+}
+
+button{
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  margin-top: 7px;
+  padding: 12px 20px;
+  text-decoration: none;
+}
